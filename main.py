@@ -12,7 +12,7 @@ def get_word():
 
 
 def play(word):
-    word_completion = '*' * len(word)  # строка, содержащая символы _ на каждую букву задуманного слова
+    word_completion = '*' * len(word)  # строка, содержащая символы * на каждую букву задуманного слова
     guessed = False
     guessed_letters = []  # список уже названных букв
     print('Давайте играть в угадайку слов!')
