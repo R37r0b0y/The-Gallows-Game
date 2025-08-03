@@ -10,7 +10,9 @@ word_list = ['КНИГА', 'СОЛНЦЕ', 'КОФЕ', 'ОКЕАН', 'ЛАМПА
 def get_word():
     return random.choice(word_list)
 
-get
+def love():
+    print("hello")
+
 
 
 def play(word):
